@@ -11,6 +11,7 @@ Reference guides and API documentation that give implementation and usage detail
    :titlesonly:
    :caption: Table of contents
 
+   api/index
    formats/index
    Augur: A bioinformatics toolkit for phylogenetic analysis <https://docs.nextstrain.org/projects/augur/en/stable/index.html>
    Auspice: An Open-source Interactive Tool for Visualising Phylogenomic Data <https://docs.nextstrain.org/projects/auspice/en/stable/>
