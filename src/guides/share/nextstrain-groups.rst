@@ -59,7 +59,7 @@ Confirm that you have access to your Nextstrain Groups AWS resources, by listing
 
 .. code-block:: bash
 
-   nextstrain remote ls s3://nextstrain-<group>
+   nextstrain remote list s3://nextstrain-<group>
 
 This command should list all the files in your bucket. Your bucket will likely be empty by default.
 
@@ -125,6 +125,27 @@ Alternately, upload multiple build files at once with wildcard syntax.
 .. code-block:: bash
 
    nextstrain remote upload s3://nextstrain-<group>/ auspice/*.json
+
+Remove files from your group
+============================
+
+You can remove specific files from your group's S3 bucket using the ``nextstrain remote delete`` command.
+For example, the following command removes your group logo and overview files.
+
+.. code-block:: bash
+
+   nextstrain remote delete \
+     s3://nextstrain-<group>/group-logo.png \
+     s3://nextstrain-<group>/group-overview.md
+
+You can use a similar command to remove multiple files with the same prefix.
+For example, the following command removes all files associated with a specific build's prefix.
+
+.. code-block:: bash
+
+   nextstrain remote delete \
+     --recursively \
+     s3://nextstrain-<group>/ncov_<your-build-name>
 
 Learn more about the Nextstrain command line interface
 ======================================================
