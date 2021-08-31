@@ -22,7 +22,11 @@ help:
 .ONESHELL:
 docker-html:
 	set -euox
-	docker build -t nextstrain-docs-builder --network=host .
+	docker build -t nextstrain-docs-builder \
+	--network=host \
+	--build-arg UID=$(shell id -u) \
+	--build-arg GID=$(shell id -g) \
+	.
 	docker run -it --rm \
 	--name=nextstrain-docs-builder-$(shell date +%s) \
 	--init \
