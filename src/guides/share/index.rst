@@ -42,36 +42,36 @@ Here is a summary of the different ways one can share data through `nextstrain.o
 
 
 We are always excited to help you contribute to Nextstrain, no matter what shape this takes.
-Please `get in touch with us <mailto:hello@nextstrain.org>`_  with any specific questions and we'll be happy to help.
+Please `get in touch with us <mailto:hello@nextstrain.org>`__  with any specific questions and we'll be happy to help.
 
 
 Centrally Maintained, Regularly Updated Datasets
 ------------------------------------------------
 
-There are a number of datasets which are run by the Nextstrain team or close collaborators, for instance `SARS-CoV-2 <https://nextstrain.org/ncov/global>`_, `seasonal influenza <https://nextstrain.org/flu>`_, and `West Nile virus <https://nextstrain.org/WNV/NA>`_.
+There are a number of datasets which are run by the Nextstrain team or close collaborators, for instance `SARS-CoV-2 <https://nextstrain.org/ncov/global>`__, `seasonal influenza <https://nextstrain.org/flu>`__, and `West Nile virus <https://nextstrain.org/WNV/NA>`__.
 Each individual dataset contains links to the scientists who maintain it.
 
-We're exited to collaborate with more research groups and expand these datasets -- please `get in touch with us <mailto:hello@nextstrain.org>`_ if this is something you'd like to be involved in.
+We're exited to collaborate with more research groups and expand these datasets -- please `get in touch with us <mailto:hello@nextstrain.org>`__ if this is something you'd like to be involved in.
 
 
 Community Maintained Datasets
 -----------------------------
 
 To make supporting this philosophy as easy as possible, we have created a "community builds" functionality, whereby GitHub is used to store the results of your analyses and the results are available for everyone via nextstrain.org.
-This is behind the `community builds <https://nextstrain.org/#community>`_ which you can see on the main page.
+This is behind the `community builds <https://nextstrain.org/#community>`__ which you can see on the main page.
 
-See `this page <community-builds.html>`_ for more information, including a step-by-step guide on how you can get your datasets up as a community build.
+See `this page <community-builds.html>`__ for more information, including a step-by-step guide on how you can get your datasets up as a community build.
 
 Nextstrain Groups
 -----------------
 
 Groups are an initiative to allow research labs, public health entities and others to manage their own datasets and narratives and share them through nextstrain.org.
-Groups can either be private or public in order to allow data sharing to the correct audience -- you can see an example of a public group `here <https://nextstrain.org/groups/blab>`_.
+Groups can either be private or public in order to allow data sharing to the correct audience -- you can see an example of a public group `here <https://nextstrain.org/groups/blab>`__.
 Private groups will only be visible to people who have a login to nextstrain.org and the permissions to see datasets in the group.
 
 Nextstrain Groups are more scalable than community managed datasets, especially if you have many large datasets, and we're excited with the future possibilities that this opens up.
 
-See `this page <nextstrain-groups.html>`_ for more information.
+See `this page <nextstrain-groups.html>`__ for more information.
 
 auspice.us
 -------------

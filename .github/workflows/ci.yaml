@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  warnings-check:
+    name: doc
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup docs build environment
+        run: |
+          conda env create -p ~/ci
+
+          # Add Conda env to PATH for subsequent steps
+          tee -a "$GITHUB_PATH" <<<"$HOME/ci/bin"
+
+      - name: Make docs with warnings fatalized
+        run: make html
+        env:
+          SPHINXOPTS: -W --keep-going
