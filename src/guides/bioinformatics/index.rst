@@ -22,4 +22,5 @@ How-to guides for performing bioinformatic anaylses with Nextstrain.
    vcf_input
    fasta_input
    seq_traits
+   estimate-clade-frequencies
    examples
