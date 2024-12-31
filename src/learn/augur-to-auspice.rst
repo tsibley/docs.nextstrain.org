@@ -517,9 +517,18 @@ metadata is to be found) to a title (how the key is to be presented in Auspice)
 and a type (how should the color scale be constructed).
 Setting the type to one of “continuous”, “temporal”, “ordinal”, “categorical”
 or “boolean” lets Auspice use the appropriate color scale.
+
+To use these categories the data should be in the format:
+
+- "boolean" - values should all be within ``["false", "true", "1.0", "0.0", "1", "0", "yes", "no"]``; coloring will be binary
+- "continuous" - values should be numeric; coloring will be a range between the minimum & maximum values
+- "temporal" - values should be dates in decimal date format (``2022.365``); coloring will be a range, and the legend will display human-readable dates
+- "ordinal" - values should be integers; coloring will be a range but all displayed values will be integers
+- "categorical" - each unique value will receive a different color, the color wheel will be repeated if necessary
+
 If the type is not provided, it will be inferred in this order:
 
-#. "boolean" if all values are within ``["false", "true", "1.0", "0.0", "1", "0", "yes", "no"]``.
+#. "boolean" if all values are within boolean values defined above.
 #. "continuous" if all values are numeric.
 #. "categorical" if none of the above are satisfied.
 
